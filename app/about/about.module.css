@@ -1,0 +1,7 @@
+.about_container{
+    background: linear-gradient(180deg, rgb(0, 61, 0) 0%, rgb(0, 175, 0) 100%);
+
+    .texto{
+        text-align: justify;
+    }
+}

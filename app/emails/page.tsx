@@ -57,16 +57,22 @@ export default async function Home() {
               </table>
             )}
           </div>
+
+          <a href="/" className={`mt-10 text-white`}>Voltar para a Home</a>
         </div>
       );
     }
     catch(err){
-      <div className={`${styles.emailsContainer} flex flex-col items-center p-6 font-[family-name:var(--font-geist-sans)]`}>
-      <h1 className='text-3xl mb-8 font-bold flex justify-center'>Lista de emails cadastrados</h1>
+      return(
+        <div className={`${styles.emailsContainer} h-screen flex flex-col items-center p-6 font-[family-name:var(--font-geist-sans)]`}>
+          <h1 className='text-3xl mb-8 font-bold flex justify-center'>Lista de emails cadastrados</h1>
 
-      <div className={`${styles.listaEmails} max-w-96 min-w-96 p-6 flex flex-col`}>
-        <p>Erro ao tentar se conectar ao banco</p>
-      </div>
-    </div>
+          <div className={`${styles.listaEmails} max-w-96 min-w-96 p-6 flex flex-col`}>
+            <p>Erro ao tentar se conectar ao banco</p>
+          </div>
+
+          <a href="/" className={`mt-10 text-white`}>Voltar para a Home</a>
+        </div>
+      );
     }
 }

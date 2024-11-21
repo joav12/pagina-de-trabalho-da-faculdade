@@ -1,0 +1,7 @@
+.members_container{
+    background: rgb(0, 175, 0);
+
+    .texto{
+        text-align: justify;
+    }
+}
