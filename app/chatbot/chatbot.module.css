@@ -1,0 +1,14 @@
+.chatbot_container{
+    background-color: rgb(0, 61, 0);
+    color: #fff;
+
+    .logo{
+        width: 120px;
+        height: 104px;
+    }
+
+    .nav_selection:hover{
+        cursor: pointer;
+        color: #a7a6a6;
+    }
+}

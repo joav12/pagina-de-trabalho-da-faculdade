@@ -4,13 +4,13 @@ import styles from './emails.module.css';
 
 export default async function Home() {
     try{
-      // const res = await fetch(`http://localhost:8080/fetch`);
-      // const data = await res.json();
-      // data.reverse();
-      const data: any[] = [
-        [1, "teste"],
-        [2, "teste 2"]
-      ];
+      const res = await fetch(`http://localhost:8080/fetch`);
+      const data = await res.json();
+      data.reverse();
+      // const data: any[] = [
+      //   [1, "teste"],
+      //   [2, "teste 2"]
+      // ];
 
       async function deleteEmail(id: number){
         const res = await fetch(`http://localhost:8080/delete/${id}`);
