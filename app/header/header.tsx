@@ -12,7 +12,6 @@ export default function Header() {
         <a href="#members" className={`${styles.nav_selection}`}>Integrantes</a>
         <a href="#newsletter" className={`${styles.nav_selection}`}>Newsletter</a>
         <a className={`${styles.nav_selection}`} href="/emails">Ver Emails cadastrados</a>
-        <a className={`${styles.nav_selection}`} href="/chatbot">Duvidas</a>
       </nav>
     </div>
   )
